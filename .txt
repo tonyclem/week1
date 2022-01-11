@@ -1,0 +1,34 @@
+Command line interface
+
+How do I create a hidden file or folder? How do I display it in the CLI?
+
+Answer:
+How to create a hidden file or folder
+1. we can create hidden files with; ( with {touch} followed by period symbol {.} with file name example {.txt} without space in between the file name. 
+example: hyf-html-exercises touch .txt ; // this cli will create the hidden file 
+
+
+1a. to create folder: we can create folder with, ( by writing this CLI {mkdir} followed by the folders name ) and we have to save it by pressing enter key on our keyboard.
+example: mkdir hyf-html-exercises ; // this cli we create the folder
+
+1b. to display files or folders on our CLI: we have to use this CLI key ( this {ls} in other for our to display it in the CLI.   
+example 1a: pwd ; //go to the present working directory
+example 1b: ls ; // list of files in the directory
+
+
+2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+Answer:
+we can create multiple nested directories, this by, {mkdir} followed by the directory name, example {mkdir c/Users/myusername/these/folders/are/just/for/fun}   
+example: mkdir c/Users/myusername/these/folders/are/just/for/fun ;
+
+
+3. How do I append a message to a file, without a newline character, so the output would be:
+
+Answer:
+we can do that by writing the follow code;({echo}) and with one line space in between, and with single or double quotation marks; ({' ', " "}) followed by the messaged, inside the quotation marks, and after the quotation marks, then we separate the quotation marks with double greater than symbol; ({>>}) , finally followed by the files name will want to append the message with; ({file name}); 
+example: echo "second message" >> . txt ;
+
+first message
+second message
+

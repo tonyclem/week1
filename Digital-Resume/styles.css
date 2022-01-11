@@ -1,0 +1,168 @@
+/* Universe  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+i {
+  color: green;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background: rgb(58, 58, 58);
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  border-radius: 3px;
+  border: 1;
+  display: grid;
+  grid-template-columns: 300px 400px;
+  align-items: stretch;
+  margin: 0 auto;
+  left: 23%;
+  position: absolute;
+}
+
+/* First Container */
+#first-container {
+  background: rgb(226, 226, 226);
+}
+
+/* Header */
+header {
+  padding: 1.3em;
+  background: rgb(214, 214, 214);
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%;
+  background: green;
+  padding: 2px;
+  width: 10em;
+  height: 8.8em;
+}
+
+header h1 {
+  padding: 0.19em;
+}
+
+/* Personal Info */
+.personal-info {
+  padding: 1em;
+}
+
+.info li {
+  padding: 0.4em;
+  font-size: 1.3em;
+}
+
+.info i {
+  padding-right: 0.8em;
+}
+
+/* Underline */
+.underline {
+  width: 15em;
+  height: 0.13em;
+  background: rgb(196, 196, 196);
+  margin: auto;
+}
+
+/* Skill */
+.skill {
+  padding-bottom: 0.6em;
+}
+
+.skill i {
+  padding-right: 0.6em;
+  font-size: 1.6em;
+}
+.skill-info {
+  padding: 0.2em;
+}
+
+.skill-info li {
+  font-size: 1.1em;
+  padding: 0.3em 0;
+}
+
+.skill-info i {
+  padding-right: 1em;
+}
+
+/* block */
+.block span {
+  display: block;
+  padding: 0.3em;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 150px 120px;
+}
+
+.lng {
+  font-size: 1em;
+  padding: 0.3em;
+}
+
+.orangec {
+  color: orange;
+}
+.blackC {
+  color: black;
+}
+/* First Container End */
+
+/* Second Container */
+#second-container {
+  background: #f3f3f3;
+  padding: 1em 0.5em;
+}
+article {
+  padding-left: 0em;
+}
+article p {
+  font-size: 1.1em;
+  padding: 0.3em 1em;
+}
+
+.second {
+  margin-bottom: 0.7em;
+}
+.second p {
+  padding-bottom: 0.9em;
+}
+.about {
+  padding: 0.3em;
+}
+.about i {
+  font-size: 1.4em;
+  padding-right: 1em;
+}
+
+.education {
+  padding: 0.6em;
+  padding-top: 1.3em;
+}
+.education span h4 {
+  font-size: 1.07em;
+}
+
+.education i {
+  padding-right: 0.5em;
+}
+
+.education p {
+  padding-bottom: 1em;
+  padding-left: 2.2em;
+}
